@@ -1,8 +1,12 @@
 # WinCip Compresor 3.2.0
 
-Aplicación de escritorio para Windows 10 y 11 x64. Explora, crea y extrae comprimidos en el equipo, con instalador y versión portable. Incluye el motor de 7-Zip.
+[![Descargar instalador para Windows (.exe)](docs/descargar-windows.svg)](https://github.com/ciromunive-dev/WinCip-Compresor/releases/download/v3.2.0/WinCip-Compresor-3.2.0-Setup.exe)
 
-[Instalador x64](https://github.com/ciromunive-dev/WinCip-Compresor/releases/download/v3.2.0/WinCip-Compresor-3.2.0-Setup.exe) · [Portable](https://github.com/ciromunive-dev/WinCip-Compresor/releases/download/v3.2.0/WinCip-Compresor-3.2.0-Portable.zip) · [Publicaciones](https://github.com/ciromunive-dev/WinCip-Compresor/releases)
+**Windows 10/11 x64 · Versión preliminar**
+
+[Portable, sin instalación (.zip)](https://github.com/ciromunive-dev/WinCip-Compresor/releases/download/v3.2.0/WinCip-Compresor-3.2.0-Portable.zip) · [Notas de la versión](https://github.com/ciromunive-dev/WinCip-Compresor/releases/tag/v3.2.0)
+
+Explora, crea y extrae archivos comprimidos. Incluye el motor de 7-Zip.
 
 ![WinCip explorando un ZIP creado con archivos de ejemplo](docs/captura-wincip.jpg)
 

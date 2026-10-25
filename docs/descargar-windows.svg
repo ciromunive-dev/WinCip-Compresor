@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="58" viewBox="0 0 340 58" role="img" aria-labelledby="title">
+  <title id="title">Descargar para Windows</title>
+  <rect width="340" height="58" rx="10" fill="#2563eb"/>
+  <g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 17v20m-7-7 7 7 7-7"/>
+    <path d="M19 37v6h20v-6"/>
+  </g>
+  <text x="53" y="36" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600">Descargar para Windows</text>
+</svg>
