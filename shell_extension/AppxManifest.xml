@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+ xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+ xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10"
+ xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+ xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
+ xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4"
+ xmlns:desktop5="http://schemas.microsoft.com/appx/manifest/desktop/windows10/5"
+ IgnorableNamespaces="uap uap10 rescap com desktop4 desktop5">
+ <Identity Name="WinCip.ShellExtension" Publisher="CN=WinCip" ProcessorArchitecture="x64" Version="3.2.0.0" />
+ <Properties>
+  <DisplayName>WinCip Compresor</DisplayName><PublisherDisplayName>WinCip</PublisherDisplayName>
+  <Logo>Assets\StoreLogo.png</Logo><uap10:AllowExternalContent>true</uap10:AllowExternalContent>
+ </Properties>
+ <Dependencies><TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26100.0" /></Dependencies>
+ <Resources><Resource Language="es-ES" /></Resources>
+ <Capabilities><rescap:Capability Name="runFullTrust" /></Capabilities>
+ <Applications>
+  <Application Id="WinCip" Executable="WinCip.exe" EntryPoint="Windows.FullTrustApplication" uap10:TrustLevel="mediumIL">
+   <uap:VisualElements AppListEntry="none" DisplayName="WinCip Compresor" Description="WinCip Compresor" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" />
+   <Extensions>
+    <com:Extension Category="windows.comServer"><com:ComServer><com:SurrogateServer DisplayName="WinCip Compresor">
+     <com:Class Id="D4E07230-5AF0-4E95-A8A0-80D732CC1791" Path="WinCipShell-3.2.dll" ThreadingModel="STA" />
+    </com:SurrogateServer></com:ComServer></com:Extension>
+    <desktop4:Extension Category="windows.fileExplorerContextMenus"><desktop4:FileExplorerContextMenus>
+     <desktop5:ItemType Type="*"><desktop5:Verb Id="WinCip" Clsid="D4E07230-5AF0-4E95-A8A0-80D732CC1791" /></desktop5:ItemType>
+     <desktop5:ItemType Type="Directory"><desktop5:Verb Id="WinCip" Clsid="D4E07230-5AF0-4E95-A8A0-80D732CC1791" /></desktop5:ItemType>
+    </desktop4:FileExplorerContextMenus></desktop4:Extension>
+   </Extensions>
+  </Application>
+ </Applications>
+</Package>

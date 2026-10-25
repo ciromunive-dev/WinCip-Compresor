@@ -1,0 +1,4 @@
+tkinterdnd2==0.6.4
+pyzipper==0.4.0
+pycryptodomex==3.24.1
+Pillow==12.2.0

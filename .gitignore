@@ -1,0 +1,29 @@
+# Entorno y artefactos generados
+/.venv/
+/.vscode/
+/.idea/
+/.vs/
+/build/
+/release/
+/design/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+*.exe
+*.dll
+*.pdb
+*.lib
+!/engine/7z.exe
+!/engine/7z.dll
+
+# Configuración local y archivos de prueba
+.env
+.env.*
+*.bak
+*.bak.*
+WinCip.install.ini
+/prueba.7z
+/vista-previa.png
